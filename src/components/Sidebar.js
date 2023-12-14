@@ -154,13 +154,13 @@ export default function Sidebar({setLogin}) {
                     </Button>
                   </Link>
                 </ListItem>
-                <ListItem className='my-5'>
+                {/* <ListItem className='my-5'>
                   <Link to="/fundraiser">   
                     <Button style={{ color: 'black' }}>
                       <MdConnectWithoutContact className='mr-3' size={25}/>Meet New People
                     </Button>
                   </Link>
-                </ListItem>
+                </ListItem> */}
                 <ListItem className='my-5'>
                   <Link to="/rewards">   
                     <Button style={{ color: 'black' }}>
