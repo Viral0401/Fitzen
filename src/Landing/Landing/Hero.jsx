@@ -1,10 +1,7 @@
 import React, {useState} from 'react'
 import Navbar from './Navbar'
-import img1 from './hero/5.png'
-import img2 from './hero/3.png'
-import img3 from './hero/4.png'
-import img4 from './hero/1.png'
-import img5 from './hero/2.png'
+import img1 from './hero/1.png'
+
 import { FaCheckCircle } from "react-icons/fa";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { FaArrowCircleLeft } from "react-icons/fa";
@@ -77,16 +74,9 @@ const Hero = () => {
             </div>
 
             <div className='md:w-[45%] flex justify-center'>
-                <div className='md:w-[45%] flex flex-col justify-center items-center'>
-                    <img src={img1} alt="hero-1" />
-                    <img src={img2} alt="hero-2" />
-                </div>
+                    
+                <img src={img1} alt="hero-1" />
 
-                <div className='md:w-[50%] flex flex-col justify-center items-center'>
-                <img src={img3} alt="hero-3" />
-                <img src={img4} alt="hero-4" />
-                <img src={img5} alt="hero-5" />
-                </div>
             </div>
 
 
