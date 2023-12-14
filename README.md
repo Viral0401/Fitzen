@@ -4,6 +4,8 @@
 
 ![Health and Fitness Tracker Logo](src/Logos/fitzen-logo.jpg)
 
+## Walkthrough - https://youtu.be/HgBd2bfBc9U
+
 ## Overview
 
 Health and Fitness Tracker is your all-in-one solution for a healthier lifestyle. This project integrates machine learning algorithms to provide features for fitness tracking, nutrition planning, and mental well-being.
