@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pose Counter</title>
+</head>
+<body>
+    <h1>Pose Counter</h1>
+    <img id="video_feed" alt="Pose Counter">
+
+    <script>
+        const video = document.getElementById('video_feed');
+        video.src = "{{ url_for('video_feed') }}";
+    </script>
+</body>
+</html>
