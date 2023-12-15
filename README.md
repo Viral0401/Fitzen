@@ -4,7 +4,8 @@
 
 ![Health and Fitness Tracker Logo](src/Logos/fitzen-logo.jpg)
 
-## Walkthrough - https://youtu.be/HgBd2bfBc9U
+# Walkthrough - https://youtu.be/HgBd2bfBc9U
+# Presentation Deck - (./BroCode_AuraHackfest.pdf)
 
 ## Overview
 
@@ -39,30 +40,29 @@ Health and Fitness Tracker is your all-in-one solution for a healthier lifestyle
 
 2. **Install dependencies:**
    ```bash
-   cd health-fitness-tracker
+   cd fitzen
    npm install
    ```
 
 3. 🏃‍♀ **Set up the backend:**
    ```bash
-   cd backend
-   npm install
+   cd fitzen-backend
+   pip install -r "fitzen-requirements.txt"
    ```
 
 4. 🚀 **Start the backend server:**
    ```bash
-   npm start
+   run python files seperately
    ```
 
 5. 📱 **Set up the mobile app:**
    ```bash
-   cd ../mobile-app
-   npm install
+   different github
    ```
 
 6. 🚀 **Run the mobile app:**
    ```bash
-   npm start
+   //different github
    ```
 
 7. 🌐 **Visit http://localhost:3000** in your web browser to access the Health and Fitness Tracker application.
@@ -96,14 +96,8 @@ Health and Fitness Tracker is your all-in-one solution for a healthier lifestyle
 7. **Live Therapy Sessions:**
    - Join scheduled live therapy sessions in the "Therapy" section.
 
-## Contributing
-
-We welcome contributions to enhance the Health and Fitness Tracker. Please follow our [contribution guidelines](CONTRIBUTING.md).
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
----
-
-*Note: Replace placeholder texts (14.12.23, hargun13, etc.) with actual information.*
